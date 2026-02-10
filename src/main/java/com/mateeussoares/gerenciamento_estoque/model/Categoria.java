@@ -1,9 +1,11 @@
 package com.mateeussoares.gerenciamento_estoque.model;
 
 import jakarta.persistence.*;
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import lombok.*;
 
+@Getter
+@Setter
+@NoArgsConstructor
 @Entity
 @Table(name = "categoria")
 public class Categoria {

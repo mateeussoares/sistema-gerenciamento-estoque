@@ -2,7 +2,6 @@ package com.mateeussoares.gerenciamento_estoque.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Getter
